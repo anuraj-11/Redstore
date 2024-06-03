@@ -1,0 +1,488 @@
+:root{
+    --theme-secondary:orangered;
+}
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Poppins",sans-serif;
+}
+
+.header{
+  
+    background: radial-gradient(white,pink);
+    
+ 
+}
+
+ .landing button{
+    padding: 8px 30px;
+    border-radius: 30px;
+    background-color: var(--theme-secondary);
+    border: none;
+   
+ 
+}
+.landing a{
+    text-decoration: none;
+    color: white;
+    
+}
+ .landing button:hover{
+    background-color: rgb(185, 70, 25);
+} 
+
+/* --------------featured products------------------- */
+ h2 {
+    text-align: center;
+    margin:60px 0 10px 0;
+    color: #283140;
+  
+}
+ hr{
+
+    width: 7%;
+    height: 5px;
+    border-radius: 8px;
+    background-color: var(--theme-secondary);
+}
+
+span{
+    color: var(--theme-secondary);
+}
+
+
+/*----------------- exclusive product -----------------*/
+
+.exclusive {
+   background: radial-gradient(white,pink);
+  
+}
+
+.exclusive button{
+    
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--theme-secondary);
+
+}
+.exclusive button:hover{
+    background-color: rgb(185, 70, 25);
+
+}
+
+/*------------------- review -----------------------*/
+
+.review  h1{
+ 
+    font-size: 90px;
+    text-align: center;
+    color: var(--theme-secondary);
+   
+} 
+.review h3{
+    font-size: 15px;
+    font-weight: bold;
+} 
+.review p{
+    
+    font-size: 15px;
+    font-weight: 5px;
+    
+    
+
+}
+
+/* ------------------company logo-------------- */
+ #godrej{
+    filter: grayscale(100%)
+ }
+ #godrej:hover{
+    filter: grayscale(0)
+ }
+ #oppo{
+    filter: grayscale(100%)
+ }
+ #oppo:hover{
+    filter: grayscale(0)
+ }
+ #cola{
+    filter: grayscale(100%)
+ }
+ #cola:hover{
+    filter: grayscale(0)
+ }
+ #paypal{
+    filter: grayscale(100%)
+ }
+ #paypal:hover{
+    filter: grayscale(0)
+ }
+ #philips{
+    filter: grayscale(100%)
+ }
+ #philips:hover{
+    filter: grayscale(0)
+ }
+
+
+    
+/* ----------------footer------------------- */
+footer{    
+    font-size: small;
+}
+footer h4{
+    font-size: smaller;
+}
+footer h3{
+    font-size: larger;
+}
+
+ footer hr{ 
+    width: 100%;
+    background-color: rgb(134, 125, 125);
+}
+
+/* ------------------All products------------------ */
+
+.all-product{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+     margin-top: 50px;
+}
+
+.all-col{
+    display: inline-block; 
+    
+   
+}
+.all-col h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+.all-col select{
+    font-size: small;
+    padding: 5px;
+}
+
+.pag-col a{
+    margin: 5px;
+    padding: 8px 16px;
+    border: 2px solid goldenrod;
+    color: black;
+    
+}
+
+.pag-col a:hover{
+    background-color: var(--theme-secondary);
+}
+
+/* ------------------Red Printed T-shirt------------ */
+
+.redshirt{
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.redshirt img{
+    
+    width: 100%;
+    float: right;
+}
+
+
+.redtshirt-col{
+    margin: 20px;
+    
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    
+} 
+.small-img-row{ 
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+
+}
+.redtshirt-col h3{
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.678);
+}
+.redtshirt-col h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.redtshirt-col h2{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.667);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.redtshirt-col select{
+    margin-top: 30px;
+    padding: 9px 12px;
+    border-color: goldenrod;
+}
+select:focus{
+    outline: none;
+}
+.redtshirt-col input{
+    margin-top: 30px;
+   padding-left: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-color: goldenrod;
+    
+}
+input:focus{
+    outline: none;
+}
+.redtshirt-col .fa{
+    color: var(--theme-secondary);
+    margin-left: 10px;
+}
+
+ .redtshirt-col button{
+    
+    padding: 8px 32px;
+    border-radius: 20px;
+    background-color: var(--theme-secondary);
+    border: none;
+    margin-left: 10px;
+  
+} 
+.redtshirt-col a{
+    text-decoration: none;
+    color: aliceblue;
+} 
+.redtshirt-col button:hover{
+    background-color: rgb(185, 70, 25);
+}
+.redtshirt-col h5{
+
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+.redtshirt-col p{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.741);
+    font-size: 15px;
+}
+
+/*--------------- RELATED PRODUCTS-------------------- */
+.relatedproduct{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 220px 0 220px
+    
+}
+.rel-col{
+    display: inline-block;
+    cursor: pointer;
+    
+
+}
+.rel-col h1{
+    font-size: x-large;
+}
+
+/* --------cart items------- */
+
+.container th{
+    
+    background-color: var(--theme-secondary);
+    text-align: left;
+    padding: 5px;
+    color: aliceblue;
+    background-color: var(--theme-secondary);
+    font-weight: normal;
+}
+
+td{
+    padding: 10px 5px;
+}
+td a{
+    text-decoration: none;
+    color: var(--theme-secondary);
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+td input{
+    width: 50px;
+    height: 45px;
+    padding: 5px;
+}
+
+
+.total-price table{
+  border-top: 3px solid var(--theme-secondary);
+  width: 100%;
+  max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+} 
+
+
+/* -----------account-------------- */
+.landing2{
+    background: radial-gradient(white,pink);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.form-container{
+    
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+   
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #283140;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+
+}
+.selected {
+    border-bottom: 2px solid var(--theme-secondary) 
+}
+.form-btn{
+    display: inline-block;
+
+}
+.form-container form{
+    margin-top: 50px;
+}
+
+form a{
+    display: block;
+    text-decoration: none; 
+    font-size: small;
+    color: #283140;
+}
+
+
+.form-container button{
+
+    color: aliceblue;
+    padding: 8px 100px;
+    border-radius: 20px;
+    background-color: var(--theme-secondary);
+
+}
+.form-container button:hover{
+    background-color: rgb(185, 70, 25);
+}
+
+
+
+@media only screen and (max-width:576px) {
+
+    .navbar-nav {
+        background-color: rgba(0, 0, 0, 0.763);
+        
+    }
+    .navbar-nav a {
+        color: aliceblue;
+        text-align: end;
+        margin-right: 50px;
+        font-weight: 600;
+        
+        
+    }
+    .navbar-nav :hover{
+        color: azure;
+    }
+ 
+    .navbar-nav ::after{
+        color: azure;
+    }
+ 
+   /* -------------Red Printed T-shirt--------------- */
+   .redshirt{
+    display: block;
+    
+   
+   }
+   .redtshirt-col{
+    margin-top: 0%;
+    width: auto;
+    height: auto;
+  
+   }
+   .redtshirt-col h1{
+    font-size: 45px; 
+   }
+   .redtshirt-col h2{
+    font-size: 35px; 
+   }
+   .redtshirt-col h3{
+    font-size: 25px; 
+   }
+   .redtshirt-col h5{
+    margin-top: 20px;
+    font-size: 30px; 
+   }
+   .redtshirt-col p{
+    margin-top: 20px;
+    font-size: 20px; 
+   }
+   .relatedproduct{  
+    margin-left: 0;
+    margin-right: 0;
+
+   }
+   .rel-col{
+   
+    margin: auto;
+    display: inline-block;
+    font-size: large; 
+   } 
+
+
+
+   
+   
+   
+   
+
+    
+    
+}
